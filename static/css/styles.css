@@ -1,0 +1,44 @@
+/* styles.css */
+/* styles.css */
+.navbar-custom {
+    background-color: #90EE90; /* Verde deschis */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #012e10; /* Culoare text alb */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Culoare text alb deschis la hover */
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.position-relative {
+    position: relative;
+    margin-bottom: 20px; /* Additional space for the button below the image */
+}
+
+.btn-center {
+    display: block;  /* Ensure the button is treated as a block element */
+    margin: 10px auto; /* Center the button horizontally and add space above */
+    width: fit-content; /* Button width adjusts to content */
+}
+
+.btn-danger {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.btn-danger:hover {
+    opacity: 1;
+}
+
+.modal-lg {
+    max-width: 80%; /* Adjust the width of the modal */
+}

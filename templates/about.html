@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>About Me</h1>
+            <p>Hello! My name is John Doe and I'm a passionate photographer based in City, Country. I've been capturing life's special moments for over a decade and have a deep love for the art of photography.</p>
+            <p>My journey began when I received my first camera as a gift at the age of ten. Ever since, I've been fascinated by the power of images to tell stories, evoke emotions, and capture the beauty of our world. Over the years, I've worked in various genres of photography including landscape, portrait, and event photography.</p>
+            <p>This website is a collection of some of my favorite images. Each photo has a story behind it and represents a moment in time that I wanted to freeze forever. I hope you enjoy browsing through my gallery and feel the emotions that I tried to capture in each shot.</p>
+            <p>Thank you for visiting my site. If you have any questions or would like to discuss a potential photo shoot, please don't hesitate to contact me.</p>
+            <p><strong>Contact:</strong> email@example.com | +1234567890</p>
+        </div>
+        <div class="col-md-4">
+            <img src="{{ url_for('static', filename='images/about_me_image.png') }}" alt="About Me Image" class="img-fluid">
+        </div>
+    </div>
+</div>
+{% endblock %}
